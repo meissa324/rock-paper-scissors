@@ -1,4 +1,7 @@
 
+let playerSelect = prompt("choose rock paper or scissors")
+
+
 
 function getComputerChoice() {
     let choice = Math.random();
