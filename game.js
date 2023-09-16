@@ -1,5 +1,5 @@
 
-let playerSelect = prompt("choose rock paper or scissors").toUpperCase
+let playerSelect = prompt("choose rock paper or scissors").toUpperCase();
 
 
 
@@ -20,6 +20,6 @@ function getComputerChoice() {
          computerSelect = "scissors";
     }
 
-    return computerSelect
+    return computerSelect.toUpperCase();
 }
 console.log(getComputerChoice());
