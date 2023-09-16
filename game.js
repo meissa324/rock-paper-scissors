@@ -1,5 +1,7 @@
 
-let playerSelect = prompt("choose rock paper or scissors")
+let playerSelect = prompt("choose rock paper or scissors").toUpperCase
+
+
 
 
 
