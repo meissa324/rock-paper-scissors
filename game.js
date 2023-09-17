@@ -1,4 +1,4 @@
-
+let gameWinner;
 
 for (let round = 1; round < 6; round++) {
 
