@@ -10,27 +10,42 @@ let computerWon = 0;
 
 if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "SCISSORS"){
 
-    
-    
-    
 
     switch(stage){
-            case "ROCKSCISSORS": console.log("you win") 
+            case "ROCKSCISSORS": {
+                console.log("you win");
+                playerWon += 1;
+        
+            }
             break;
 
-            case "SCISSORSROCK": console.log("you lose") 
+            case "SCISSORSROCK": {
+                console.log("you lose");
+                computerWon += 1; 
+            }
             break;
 
-            case "ROCKPAPER": console.log("you lose") 
+            case "ROCKPAPER": {
+                console.log("you lose");
+                computerWon += 1;
+            }
             break;
 
-            case "PAPERROCK": console.log("you win") 
+            case "PAPERROCK": {
+                console.log("you win");
+                playerWonW += 1;
+            }
             break;
 
-            case "SCISSORSPAPER": console.log("you win") 
+            case "SCISSORSPAPER": {
+                console.log("you win");
+                playerWon += 1;
+            }
             break;
 
-            case "PAPERSCISSORS": console.log("you lose") 
+            case "PAPERSCISSORS": {
+                console.log("you lose");
+                computerWon += 1;
             break;
 
             default: console.log("tie")
