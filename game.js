@@ -33,7 +33,7 @@ if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "
 
             case "PAPERROCK": {
                 console.log("you win");
-                playerWonW += 1;
+                playerWon += 1;
             }
             break;
 
