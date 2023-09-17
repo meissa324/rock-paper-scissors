@@ -7,6 +7,7 @@ let stage = playerSelect + computerSelect;
 
 let playerWon = 0;
 let computerWon = 0;
+let score = `player: ${playerWon} computer: ${computerWon}`;
 
 if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "SCISSORS"){
 
@@ -84,3 +85,5 @@ function getComputerChoice() {
 
     return computerSelect.toUpperCase();
 }
+
+console.log(score);
