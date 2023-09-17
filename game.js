@@ -1,11 +1,13 @@
 
 let playerSelect = prompt("choose rock paper or scissors").toUpperCase();
 
+let computerSelect = getComputerChoice();
 
+let stage = playerSelect + computerSelect;
 
 if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "SCISSORS"){
     
-    let stage = playerSelect + getComputerChoice;
+    
 
     switch(stage){
             case "ROCKSCISSORS": console.log("you win") 
@@ -44,9 +46,6 @@ else{
 
 
 
-
-
-
 function getComputerChoice() {
     let choice = Math.random();
 
@@ -64,4 +63,3 @@ function getComputerChoice() {
 
     return computerSelect.toUpperCase();
 }
-console.log(getComputerChoice());
