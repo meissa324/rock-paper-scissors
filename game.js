@@ -1,6 +1,6 @@
 
 
-for (let round = 0; round < 5; round++) {
+for (let round = 1; round < 6; round++) {
 
 let playerSelect = prompt("choose rock paper or scissors").toUpperCase();
 
@@ -65,7 +65,7 @@ else{
     console.log("pick a real option dweeb")
 }
 
-let score = `round Number: ${null} player: ${playerWon} computer: ${computerWon}`;
+let score = `round Number: ${round} player: ${playerWon} computer: ${computerWon}`;
 
 console.log(score);
 
