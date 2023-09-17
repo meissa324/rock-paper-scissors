@@ -1,4 +1,7 @@
 
+
+for (let round = 0; round < 5; round++) {
+
 let playerSelect = prompt("choose rock paper or scissors").toUpperCase();
 
 let computerSelect = getComputerChoice();
@@ -62,12 +65,9 @@ else{
     console.log("pick a real option dweeb")
 }
 
-let score = `player: ${playerWon} computer: ${computerWon}`;
+let score = `round Number: ${null} player: ${playerWon} computer: ${computerWon}`;
 
 console.log(score);
-
-
-
 
 
 function getComputerChoice() {
@@ -87,4 +87,4 @@ function getComputerChoice() {
 
     return computerSelect.toUpperCase();
 }
-
+}
