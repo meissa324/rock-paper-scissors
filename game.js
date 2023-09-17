@@ -7,7 +7,7 @@ let stage = playerSelect + computerSelect;
 
 let playerWon = 0;
 let computerWon = 0;
-let score = `player: ${playerWon} computer: ${computerWon}`;
+
 
 if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "SCISSORS"){
 
@@ -62,7 +62,9 @@ else{
     console.log("pick a real option dweeb")
 }
 
+let score = `player: ${playerWon} computer: ${computerWon}`;
 
+console.log(score);
 
 
 
@@ -86,4 +88,3 @@ function getComputerChoice() {
     return computerSelect.toUpperCase();
 }
 
-console.log(score);
