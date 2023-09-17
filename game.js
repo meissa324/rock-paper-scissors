@@ -1,9 +1,9 @@
-let gameWinner;
 
-let playerWon = 0; playerWon < 3;
-let computerWon = 0; computerWon < 3;
+function game(){
+let playerWon = 0; 
+let computerWon = 0; 
 
-for (let round = 1; playerWon===3 || computerWon===3; round++) {
+for (let round = 1; playerWon < 3 && computerWon < 3; round++) {
 
 let playerSelect = prompt("choose rock paper or scissors").toUpperCase();
 
@@ -88,3 +88,12 @@ function getComputerChoice() {
     return computerSelect.toUpperCase();
 }
 }
+
+if (playerWon===3){
+    console.log("you won this game!")
+}
+else if(computerWon===3){
+    console.log("you lost :(, to a computer no less")
+}
+
+};
