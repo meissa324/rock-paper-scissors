@@ -46,6 +46,7 @@ if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "
             case "PAPERSCISSORS": {
                 console.log("you lose");
                 computerWon += 1;
+            }
             break;
 
             default: console.log("tie")
