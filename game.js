@@ -5,7 +5,12 @@ let computerSelect = getComputerChoice();
 
 let stage = playerSelect + computerSelect;
 
+let playerWon = 0;
+let computerWon = 0;
+
 if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "SCISSORS"){
+
+    
     
     
 
