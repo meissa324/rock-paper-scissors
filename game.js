@@ -1,15 +1,15 @@
 let gameWinner;
 
-for (let round = 1; round < 6; round++) {
+let playerWon = 0; playerWon < 3;
+let computerWon = 0; computerWon < 3;
+
+for (let round = 1; playerWon===3 || computerWon===3; round++) {
 
 let playerSelect = prompt("choose rock paper or scissors").toUpperCase();
 
 let computerSelect = getComputerChoice();
 
 let stage = playerSelect + computerSelect;
-
-let playerWon = 0;
-let computerWon = 0;
 
 
 if (playerSelect ===  "ROCK" || playerSelect ===  "PAPER" || playerSelect ===  "SCISSORS"){
